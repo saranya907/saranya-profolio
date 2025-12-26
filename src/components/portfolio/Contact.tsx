@@ -37,7 +37,7 @@ const Contact = () => {
       const templateId = "template_38hzsvd"; // e.g., "template_xxxxxxx"
       const publicKey = "R9iwRw2Y7wb8dfcyG"; // e.g., "xxxxxxxxxxxxxxxxx"
 
-      if (serviceId === "YOUR_SERVICE_ID") {
+      if (serviceId === "service_5mo151b") {
         // Demo mode - show success without actually sending
         await new Promise((resolve) => setTimeout(resolve, 1000));
         toast({
@@ -109,10 +109,10 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
                   <a
-                    href="mailto:saranya@example.com"
+                    href="mailto:saranyathirumal0926@gmail.com"
                     className="text-foreground hover:text-primary transition-colors"
                   >
-                    saranya@example.com
+                    saranyathirumal0926@gmail.com
                   </a>
                 </div>
               </div>
